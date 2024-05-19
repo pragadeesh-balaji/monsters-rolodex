@@ -1,0 +1,8 @@
+.page {
+  display: flex;
+  margin: 2rem auto;
+  max-width: 1200px;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+}

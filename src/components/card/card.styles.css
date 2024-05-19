@@ -1,0 +1,30 @@
+.card {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(2, auto);
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.2rem 0.8rem 0.2rem rgba(58, 58, 58, 20%);
+  row-gap: 1.5rem;
+  transition: all 0.2s ease-out;
+}
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.card__img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.card__title {
+  font-weight: 600;
+  color: #3a3a3a;
+  font-size: 3.5rem;
+  letter-spacing: 0.15rem;
+}

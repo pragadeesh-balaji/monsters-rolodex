@@ -1,0 +1,24 @@
+.search {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.search-box {
+  border: none;
+  outline: none;
+  margin: 0.5rem;
+  padding: 1rem 0.8rem;
+  border-radius: 0.5rem;
+}
+
+.search--type-1 {
+  outline: 0.2rem #72b1ff solid;
+}
+
+.search--type-1:focus {
+  outline: 0.2rem rgb(48, 141, 254);
+  box-shadow: 0 0rem 0.8rem 0.4rem rgba(48, 141, 254, 50%);
+  border-radius: 0.5rem;
+}
